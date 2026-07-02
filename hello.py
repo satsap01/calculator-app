@@ -1,2 +1,4 @@
-print("Hello from feature branch!")
-print("This is my first PR workflow step.")
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Rahul")
